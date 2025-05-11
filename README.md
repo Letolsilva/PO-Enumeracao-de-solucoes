@@ -7,7 +7,6 @@ Este projeto tem como objetivo enumerar todas as soluções básicas (viáveis e
 - `src/main.py`: Ponto de entrada da aplicação.
 - `src/parser.py`: Funções para ler e interpretar o arquivo de entrada.
 - `src/solver.py`: Lógica para calcular todas as soluções básicas.
-- `src/types/index.py`: Definições de tipos e classes para estruturas de dados.
 - `requirements.txt`: Dependências do projeto.
 
 ## Como Executar
