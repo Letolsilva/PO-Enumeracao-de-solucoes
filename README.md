@@ -1,4 +1,4 @@
-# Projeto de Enumeração de Soluções Básicas em Programação Linear
+# Trab 1 - Projeto de Enumeração de Soluções de Problemas de Programação Linear
 
 Este projeto tem como objetivo enumerar todas as soluções básicas (viáveis e inviáveis) de um problema de programação linear de minimização. O programa lê um arquivo de entrada que especifica o problema e utiliza um parser para interpretar os dados, seguido de um solver que calcula as soluções.
 
@@ -18,7 +18,7 @@ Este projeto tem como objetivo enumerar todas as soluções básicas (viáveis e
    ```
 3. Execute o programa passando o caminho do arquivo de entrada como argumento:
    ```
-   python src/main.py caminho/do/arquivo.txt
+   python3 src/main.py caminho/do/arquivo.txt
    ```
 
 ## Exemplo de Uso
@@ -33,4 +33,4 @@ Considere um arquivo de entrada com a seguinte estrutura:
 0 1 0 0 1 3
 ```
 
-Ao executar o programa, ele irá processar o arquivo e apresentar todas as soluções básicas, indicando se são viáveis ou inviáveis, além de identificar a solução ótima.
+Ao executar o programa, ele irá processar o arquivo e apresentar todas as soluções básicas, indicando se são viáveis ou inviáveis, além de identificar a solução ótima se ela existir.

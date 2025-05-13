@@ -29,7 +29,6 @@ def calcular_solucoes_basicas(coeficientes, restricoes):
                 inviaveis.append((solucao, z))
 
         except np.linalg.LinAlgError:
-            # Sistema linear não tem solução
             continue
 
     return solucoes_basicas, viaveis, inviaveis
@@ -37,4 +36,4 @@ def calcular_solucoes_basicas(coeficientes, restricoes):
 def encontrar_solucao_otima(viaveis):
     if not viaveis:
         return None
-    return min(viaveis, key=lambda x: x[1])  # Retorna a solução com o menor valor da função objetivo
+    return min(viaveis, key=lambda x: x[1])

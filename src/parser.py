@@ -12,11 +12,3 @@ def ler_arquivo_entrada(caminho_arquivo):
     
     return n, m, coeficientes_objetivo, restricoes
 
-def extrair_dados(entrada):
-    n, m, coeficientes_objetivo, restricoes = entrada
-    return {
-        'num_variaveis': n,
-        'num_restricoes': m,
-        'coeficientes_objetivo': coeficientes_objetivo,
-        'restricoes': restricoes
-    }
