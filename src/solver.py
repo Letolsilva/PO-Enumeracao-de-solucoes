@@ -1,6 +1,7 @@
+from itertools import combinations
+import numpy as np
 def calcular_solucoes_basicas(coeficientes, restricoes):
-    from itertools import combinations
-    import numpy as np
+
 
     n = len(coeficientes)
     m = len(restricoes)
