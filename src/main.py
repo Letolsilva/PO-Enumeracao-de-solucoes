@@ -10,12 +10,8 @@ def main():
     input_file_path = sys.argv[1]
 
     n, m, c, restricoes = ler_arquivo_entrada(input_file_path)
-
-    A = [linha[:-1] for linha in restricoes]
-    b = [linha[-1] for linha in restricoes] 
-    restricoes_completas = [A[i] + [b[i]] for i in range(m)]
     
-    solucoes_basicas, viaveis, inviaveis = calcular_solucoes_basicas(c, restricoes_completas)
+    solucoes_basicas, viaveis, inviaveis = calcular_solucoes_basicas(c, restricoes)
     
     for solucao, z in solucoes_basicas:
         solucao_arredondada = [round(val, 6) for val in solucao]
